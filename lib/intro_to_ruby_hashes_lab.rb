@@ -6,7 +6,7 @@ end
 
 def read_from_hash(hash, key)
   if hash[key]
-    return key[value]
+    return hash[key]
   else
     return nil
   end
